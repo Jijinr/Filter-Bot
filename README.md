@@ -19,7 +19,7 @@ Alternatively, [find me on telegram](https://t.me/D_ar_k_Angel)! (Keep all suppo
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkAngelTG/Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SHER321/Filter-Bot)
 
 ## Starting the bot.
 
