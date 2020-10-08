@@ -2,9 +2,9 @@
 - `DATA BASE`: Sqlalchemy Database
 - `DATA LIMIT`: 10000
 
-My New Updates In This [Channel](https://t.me/DX_Botz)
+)
 
-Our Beta [Filter Bot](https://t.me/Filters_Robot).
+(https://t.me/Filters_Robot).
 
 Alternatively, [find me on telegram](https://t.me/D_ar_k_Angel)! (Keep all support questions in the support chat, where more people can help you.)
 
