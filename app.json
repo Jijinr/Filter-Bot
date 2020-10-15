@@ -7,61 +7,61 @@
          "plan": "heroku-postgresql"
       }
    ],
-   "description": "Telegram's Best Filter Bot😴Developed By DX_Botz",
+   "description": "Telegram's Best Filter Bot😴Developed By Syed",
    "env": {
       "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /",
+         "description": "Set This To True If You Want ! To Be A Command Prefix Along With /",
          "value": "True"
       },
       "DEL_CMDS": {
-         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "description": "Set This To True If You Want To Delete Command Messages From Users Who Don't Have The Perms To Run That Command.",
          "value": "False"
          
       },
       "ENV": {
-         "description": "Setting this to ANYTHING will enable environment variables.",
+         "description": "Setting This To ANYTHING Will Enable Environment Variables.",
          "value": "ANYTHING"
       },
       "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your postgres sql db, empty this field if you dont have one.",
+         "description": "Your Postgres Sql Db, Empty This Field If You Dont Have One.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
-         "description": "Your user ID as an integer.",
-         "value": "809546777"
+         "description": "Your User ID As An integer.",
+         "value": "999839918"
       },
       "OWNER_NAME": {
          "description": "Enter Your Name",
-         "value": "𒆜DⱥℝkͥAnͣgͫeℓ𒆜"
+         "value": "Syed Bro 【PREMIUM IDS™】"
       },
       "DEV_USERS": {
-         "description": "ID of users who are Dev (can use /py etc.)",
+         "description": "ID Of Users Who Are Dev (Can Use /py Etc.)",
          "required": false,
-         "value": "699615803 809546777"
+         "value": "690186299 872139339 1147957808"
       },
        "START_IMG": {
-         "description": "Image shows when hit /start",
+         "description": "Image Shows When Hit /start",
          "value": "https://telegra.ph/file/fc734b227985a1524e715.jpg"    
       },
       "PORT": {
-         "description": "Port to use for your webhooks.",
+         "description": "Port To Use For Your Webhooks.",
          "required": false,
          "value": ""
       },
       "SUDO_USERS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "description": "A Space Separated List Of User IDs Who You Want To Assign As Sudo Users.",
          "required": false,
-         "value": "699615803 809546777"
+         "value": "690186299 872139339 1147957808"
       },
       "SUPPORT_USERS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "description": "A Space Separated List Of User IDs Who You Want To Assign As Support Users(Gban Perms Only).",
          "required": false,
-         "value": "699615803 809546777"
+         "value": "690186299 872139339 1147957808"
       },
      
       "TOKEN": {
-         "description": "Your bot token.",
+         "description": "Your Bot Token.",
          "required": true,
          "value": ""
       },
@@ -71,14 +71,14 @@
          "value": ""
       },
       "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks.",
+         "description": "Setting This To ANYTHING Will Enable Webhooks.",
          "required": false,
          "value": ""
       },
       "WHITELIST_USERS": {
-         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "description": "A Space Separated List Of User IDs Who You Want To Assign As Whitelisted - Can't Be Banned With Your Bot.",
          "required": false,
-         "value": "699615803 809546777"
+         "value": "690186299 872139339 1147957808"
       }
    },
    "keywords": [
@@ -94,3 +94,4 @@
    "success_url": "https://telegram.dog/Filters_Robot",
    "logo": "https://telegra.ph/file/32818d7b01045798980e8.jpg"
 }
+
