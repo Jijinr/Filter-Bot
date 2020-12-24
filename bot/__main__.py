@@ -30,6 +30,10 @@ PM_START_TEXT = """
 *Hello* *{}*
 *My name is* *{}*\n\n`You Can Add any kind of Filters to This Bot!`
 
+Join On @vkprojects
+
+© @vkprojects
+
 _Click Help button for more details_
 """
 
