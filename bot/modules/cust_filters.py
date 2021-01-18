@@ -50,7 +50,7 @@ def list_handlers(bot: Bot, update: Update):
         return
 
     for keyword in all_handlers:
-        entry = " `{}`\n".format(escape_markdown(keyword))
+        entry = " - `{}`\n".format(escape_markdown(keyword))
         if len(entry) + len(filter_list) > telegram.MAX_MESSAGE_LENGTH:
             update.effective_message.reply_text(filter_list, parse_mode=telegram.ParseMode.MARKDOWN)
             filter_list = entry
