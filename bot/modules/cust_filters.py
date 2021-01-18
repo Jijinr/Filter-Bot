@@ -50,7 +50,7 @@ def list_handlers(bot: Bot, update: Update):
         return
 
     for keyword in all_handlers:
-        entry = " - {}\n".format(escape_markdown(keyword))
+        entry = " `{}`\n".format(escape_markdown(keyword))
         if len(entry) + len(filter_list) > telegram.MAX_MESSAGE_LENGTH:
             update.effective_message.reply_text(filter_list, parse_mode=telegram.ParseMode.MARKDOWN)
             filter_list = entry
@@ -162,7 +162,7 @@ def filters(bot: Bot, update: Update):
     sql.add_filter(chat_id, keyword, content, is_sticker, is_document, is_image, is_audio, is_voice, is_video,
                    buttons, media_caption, has_caption)
 
-    msg.reply_text("Filter '{}' Added==> *{}*!".format(keyword, chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
+    msg.reply_text("Filter '`{}`' Added==> *{}*!".format(keyword, chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
     raise DispatcherHandlerStop
 
 
